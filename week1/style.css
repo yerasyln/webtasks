@@ -1,0 +1,17 @@
+body{
+	background-color: #F3F5F6;
+}
+img{
+	width:290px;
+}
+strong{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 37px;
+}
+table{
+	margin-bottom: 10px;
+}
+p{
+	font-size: 22px;
+}
