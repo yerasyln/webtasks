@@ -1,0 +1,70 @@
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<title>Toyota FJ Cruiser</title>
+	<link rel = "stylesheet" href= "style.css">
+
+	
+	
+</head>
+<body>
+	<div class="section-1">
+	<div class="menu">
+		<a id ="logo1" href="main.html"><img id="logo" src="src/logo.png"></a>
+	  	<a id="home" href="main.html">Home</a>
+	  	<a id="buy" href="buy.html">Buy</a>
+	  	<a id="sell" href="sell.html">Sell & Trade</a>
+	  	<a id="about" href="about.html">About us</a>
+	  	<button id ="login" onclick= "window.location.href='login.html'">Log in</button>
+	</div>
+	<div class="option1">
+		<div class="desc1">
+			<span>Toyota FJ Cruiser 2007 года</span>
+			<span>9,600,000KZT</span>
+		</div>
+		<div class="info1">
+			<div class="left1">
+				<div class="left-1-1">
+					<span>Город</span>
+					<span>Кузов</span>
+					<span>Объем двигателя</span>
+					<span>Коробка передач</span>
+					<span>Руль</span>
+					<span>Привод</span>
+					<span>Растаможен</span>
+				</div>
+				<div class="left-1-2">
+					<span>Алматы</span>
+					<span>Внедорожник</span>
+					<span>4</span>
+					<span>Автомат</span>
+					<span>Слева</span>
+					<span>Полный привод</span>
+					<span>да</span>
+				</div>
+				<div class="left-1-bot">
+					<span>В отличном состоянии, много вложено средств и времени! Варианты обмена рассмотрю!</span>
+				</div>
+			</div>
+			<div class="right1">
+				<div class="bigger">
+					<img src="https://photos-b-kl.kcdn.kz/21/d9f9d15cac84427a82d1ddba31eb18/5-408x306.jpg" id="big">
+				</div>
+
+				<div class="small">
+					<img src="https://photos-b-kl.kcdn.kz/21/d9f9d15cac84427a82d1ddba31eb18/5-408x306.jpg" onclick="change(event)">
+					<img src="https://photos-b-kl.kcdn.kz/21/d9f9d15cac84427a82d1ddba31eb18/7-60x45.jpg" onclick="change(event)">
+					<img src="https://photos-b-kl.kcdn.kz/21/d9f9d15cac84427a82d1ddba31eb18/9-60x45.jpg" onclick="change(event)">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script >function change(event){
+	document.getElementById("big").src = event.currentTarget.src;
+}</script>
+</body>
+<footer>
+	<div class = "foot">©2017 Yerassyl Nurlanov. All rights reserved</div>
+</footer>
+</html>
